@@ -22,9 +22,22 @@
 		8631093D2D249EDC003B85BC /* RayTracing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracing; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		8684D8B82D28950400983673 /* Exceptions for "RayTracing" folder in "Compile Sources" phase from "RayTracing" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 863109392D249EDC003B85BC /* Sources */;
+			membershipExceptions = (
+				sphere.h,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8631093F2D249EDC003B85BC /* RayTracing */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8684D8B82D28950400983673 /* Exceptions for "RayTracing" folder in "Compile Sources" phase from "RayTracing" target */,
+			);
 			path = RayTracing;
 			sourceTree = "<group>";
 		};
